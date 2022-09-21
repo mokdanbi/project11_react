@@ -1,0 +1,27 @@
+$mc: #ff671b;
+$sc: #282828;
+
+* {
+    outline: 1px solid #369;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.Header {
+    line-height: 100px;
+
+    .inner {
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            gap: 40px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.Main {
+
+    .itm {
+        position: relative;
+        height: 800px;
+    }
+
+    @for $i from 1 through 3 {
+        .itm0#{$i} {
+            background: url(../../public/images/main0#{$i}.jpg) no-repeat center center/cover;
+        }
+    }
+
+    .slideTxt {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 1200px;
+        color: #fff;
+
+        h2 {
+            font-size: 50px;
+            font-weight: 800;
+            margin: 0 0 20px 0;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+}
