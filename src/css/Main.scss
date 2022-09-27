@@ -8,6 +8,7 @@
     @for $i from 1 through 3 {
         .itm0#{$i} {
             background: url(../../public/images/main0#{$i}.jpg) no-repeat center center/cover;
+            height: 800px;
         }
     }
 
@@ -18,6 +19,7 @@
         transform: translate(-50%, -50%);
         width: 1200px;
         color: #fff;
+        text-shadow: 3px 3px 3px #333;
 
         h2 {
             font-size: 50px;

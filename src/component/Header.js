@@ -8,7 +8,7 @@ const Header = () => {
             <div className="inner">
                 <h1>
                     <Link to="/">
-                        <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="" />
+                        <img src={process.env.PUBLIC_URL + "/images/t_logo.png"} alt="" />
                     </Link>
                 </h1>
                 <nav>

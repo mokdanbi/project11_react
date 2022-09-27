@@ -2,7 +2,7 @@ $mc: #ff671b;
 $sc: #282828;
 
 * {
-    outline: 1px solid #369;
+    // outline: 1px solid #369;
 }
 
 .inner {
@@ -16,6 +16,10 @@ $sc: #282828;
     .inner {
         display: flex;
         justify-content: space-between;
+
+        h1 {
+            width: 70px;
+        }
 
         ul {
             display: flex;
