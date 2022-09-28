@@ -8,6 +8,7 @@ function App() {
   return (
     <Wrapper>
       <Header />
+      <Main />
       <Routes>
         <Route path="/" element={<Main />} />
       </Routes>

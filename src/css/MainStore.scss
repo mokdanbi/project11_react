@@ -1,0 +1,50 @@
+@use 'App';
+
+.MainStore {
+    padding: 100px 0;
+    background: #efe6de;
+
+    h2 {
+        font-size: 40px;
+        font-weight: 800;
+        margin: 0 0 10px 0;
+        color: App.$mc;
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 500;
+        color: App.$sc;
+        text-align: center;
+    }
+
+    .inner {
+        display: flex;
+        width: 1200px;
+        margin: 0 auto;
+
+        &>div {
+            width: 50%;
+        }
+
+        figure {
+            display: flex;
+
+            .store {
+                height: 300px;
+                width: 300px;
+            }
+
+            @for $i from 1 through 3 {
+                .k_store0#{$i} {
+                    background: url(../../public/images/store_k0#{$i}.jpg) no-repeat center center/cover;
+                }
+
+                .g_store0#{$i} {
+                    background: url(../../public/images/store_g0#{$i}.jpg) no-repeat center center/cover;
+                }
+            }
+        }
+    }
+}

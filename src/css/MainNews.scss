@@ -1,0 +1,70 @@
+@use 'App';
+
+.MainNews {
+    padding: 100px 0;
+
+    .inner {
+        display: flex;
+        width: 1200px;
+        margin: 0 auto;
+        gap: 50px;
+
+        .title {
+            flex: 1;
+            // margin: auto 0;
+
+            h2 {
+                font-size: 40px;
+                font-weight: 800;
+                margin: 0 0 10px 0;
+                color: App.$mc;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 500;
+                color: App.$sc;
+            }
+        }
+
+        h3 {
+            font-size: 26px;
+            font-weight: 900;
+            color: App.$sc;
+            margin: 0 0 10px 10px;
+        }
+
+        .news,
+        .notice {
+            position: relative;
+            flex: 2;
+
+            .plus {
+                position: absolute;
+                right: 10px;
+                font-size: 26px;
+                top: 0;
+                color: App.$sc;
+            }
+        }
+
+        ul {
+            border-top: 5px solid App.$sc;
+            border-bottom: 5px solid App.$sc;
+
+            li {
+                line-height: 40px;
+                font-size: 15px;
+
+                a {
+                    display: block;
+                    padding: 0 0 0 10px;
+                }
+            }
+
+            li~li {
+                border-top: 1px solid App.$sc;
+            }
+        }
+    }
+}

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import '../css/Main.scss'
 
 const MAINSLIDE = [
     { id: 1, title: "즉석떡볶이 무한리필 레스토랑 NO.1", content: "고객에게 단순히 떡볶이를 먹는 식당이 아닌, 그 이상의 가치를 제공하는 대한민국 최고의 즉석떡볶이 브랜드가 되겠습니다." },
