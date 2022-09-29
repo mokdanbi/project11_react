@@ -1,5 +1,42 @@
+@use 'App';
+
 .Subpage {
     .subImg {
-        background: url(../../build/images/brand_v1.png);
+        background: url(../../public/images/brand01.jpg) no-repeat center center/cover;
+        height: 400px;
+    }
+
+    .navBar {
+        line-height: 70px;
+        background: linear-gradient(to right, App.$mc 25%, #fff 25% 70%);
+        border-bottom: 1px solid #f1f1f1;
+    }
+
+    .inner {
+        display: flex;
+        justify-content: space-between;
+
+        .title {
+            font-size: 26px;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        ul {
+            display: flex;
+
+            li {
+                border-left: 1px solid #f1f1f1;
+
+                &:last-child {
+                    border-right: 1px solid #f1f1f1;
+                }
+
+                a {
+                    display: block;
+                    padding: 0 25px;
+                }
+            }
+        }
     }
 }
