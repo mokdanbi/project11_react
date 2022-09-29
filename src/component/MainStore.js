@@ -2,6 +2,8 @@ import React from 'react'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import '../css/MainStore.scss'
+import { GoArrowDown, GoArrowUp, GoDeviceMobile } from "react-icons/go";
+import { Link } from 'react-router-dom';
 
 const KSTORE = [
     { id: 1, store: "오산대역점", add: "경기도 오산시 내삼미로 79번길 22, 2층 204호", date: "2022-08-31", tel: "031-372-2711", link: "/" },
@@ -16,38 +18,51 @@ const GSTORE = [
 ]
 
 const MainStore = () => {
+    const setting = {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        vertical: true,
+        arrows: false,
+        draggable: false,
+    }
     return (
         <section className='MainStore'>
             <h2>NEW STORE</h2>
             <p>두끼 떡볶이의 새로 오픈한 매장을 소개합니다</p>
             <div className="inner">
-                <div className="koreaStore">
-                    <Slider
-                        slidesToShow={1}
-                        slidesToScroll={1}
-                        vertical={true}
-                    >
+                <div className="koreaStore" data-title="Korean Store">
+                    <Slider {...setting}
+                        ref={KSTORE}>
                         {
                             KSTORE.map(kstore => {
                                 return (
-                                    <figure key={kstore.id}>
+                                    <figure key={kstore.id} >
                                         <div className={`store k_store0${kstore.id}`} key={kstore.id}>
                                         </div>
                                         <div className="des">
+                                            <div className='open'><span>OPEN</span>{kstore.date}</div>
                                             <strong>{kstore.store}</strong>
+                                            <div className='add'>{kstore.add}</div>
+                                            <div className='tel'>
+                                                <Link to="/">
+                                                    <GoDeviceMobile className='call' /> {kstore.tel}
+                                                </Link>
+                                            </div>
+                                            <Link to="/" className='more'>MORE VIEW</Link>
                                         </div>
                                     </figure>
                                 )
                             })
                         }
                     </Slider>
+                    <div className="arrows">
+                        <GoArrowUp className='SB SBT' onClick={() => KSTORE.current.slickPrev()} />
+                        <GoArrowDown className='SB SBD' onClick={() => KSTORE.current.slickNext()} />
+                    </div>
                 </div>
-                <div className="globalStore">
-                    <Slider
-                        slidesToShow={1}
-                        slidesToScroll={1}
-                        vertical={true}
-                    >
+                <div className="globalStore" data-title="Global Store">
+                    <Slider {...setting}
+                        ref={GSTORE}>
                         {
                             GSTORE.map(gstore => {
                                 return (
@@ -55,13 +70,20 @@ const MainStore = () => {
                                         <div className={`store g_store0${gstore.id}`} key={gstore.id}>
                                         </div>
                                         <div className="des">
+                                            <div className='open'><span>OPEN</span> {gstore.date}</div>
                                             <strong>{gstore.store}</strong>
+                                            <div className='add'>{gstore.add}</div>
+                                            <Link to="/" className='more'>MORE VIEW</Link>
                                         </div>
                                     </figure>
                                 )
                             })
                         }
                     </Slider>
+                    <div className="arrows">
+                        <GoArrowUp className='SB SBT' onClick={() => GSTORE.current.slickPrev()} />
+                        <GoArrowDown className='SB SBD' onClick={() => GSTORE.current.slickNext()} />
+                    </div>
                 </div>
             </div>
         </section>
