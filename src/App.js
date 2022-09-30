@@ -9,6 +9,7 @@ import Franchise from './pages/Franchise';
 import Notice from './pages/Notice';
 import Community from './pages/Community';
 import Mealncook from './pages/Mealncook';
+import Footer from './component/Footer';
 import './css/App.scss'
 
 
@@ -36,6 +37,7 @@ function App() {
         <Route path="/community" element={<Community content={NAVTITLE} />} />
         <Route path="/mealncook" element={<Mealncook content={NAVTITLE} />} />
       </Routes>
+      <Footer />
     </Wrapper>
   );
 }

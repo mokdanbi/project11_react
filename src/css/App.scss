@@ -83,3 +83,42 @@ $sc: #282828;
         }
     }
 }
+
+.Footer {
+    background: $sc;
+    color: #fff;
+
+    .marquee {
+        background: #fff;
+    }
+
+
+    .marquee img {
+        padding: 0 0 40px 0;
+        border-top: 1px solid #f1f1f1;
+    }
+
+    .inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0;
+
+
+        dl {
+            font-size: 14px;
+
+            dd {
+                margin: 0 0 5px 0;
+            }
+
+            dt {
+                font-weight: 600;
+            }
+        }
+
+        .personal {
+            font-size: 15px;
+            font-weight: 600;
+        }
+    }
+}
