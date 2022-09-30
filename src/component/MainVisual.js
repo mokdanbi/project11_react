@@ -18,6 +18,7 @@ const MainVisual = () => {
                             return (
                                 <SwiperSlide className={`itm itm0${slide.id}`} key={slide.id}>
                                     <div className="slideTxt">
+                                        <img src={process.env.PUBLIC_URL + "/images/mara.png"} alt="" />
                                         <h2>{slide.title}</h2>
                                         <p>{slide.content}</p>
                                     </div>

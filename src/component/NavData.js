@@ -24,7 +24,7 @@ const franchise_sub = [
 const notice_sub = [
     { id: 1, title: "공지사항", link: "/notice" },
     { id: 2, title: "이벤트", link: "/notice/sub02" },
-    { id: 3, title: "사업설명회", link: "/notice/sub03" }
+    { id: 3, title: "채용공고", link: "/notice/sub03" }
 ]
 
 const community_sub = [

@@ -1,0 +1,31 @@
+@use 'App';
+
+.container {
+
+    .selfbar {
+        margin: 80px 0 100px;
+        text-align: center;
+
+        .img {
+            width: 50%;
+            margin: 0 auto 50px;
+        }
+
+        .tit {
+
+            h3 {
+                font-size: 30px;
+                font-weight: 800;
+                margin: 0 0 10px 0;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        span {
+            color: App.$mc;
+        }
+    }
+}

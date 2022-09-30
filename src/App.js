@@ -29,12 +29,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/brand" element={<Brand content={NAVTITLE} />} />
-        <Route path="/menu" element={<Menu />} />
-        <Route path="/store" element={<Store />} />
-        <Route path="/franchise" element={<Franchise />} />
-        <Route path="/notice" element={<Notice />} />
-        <Route path="/community" element={<Community />} />
-        <Route path="/mealncook" element={<Mealncook />} />
+        <Route path="/menu" element={<Menu content={NAVTITLE} />} />
+        <Route path="/store" element={<Store content={NAVTITLE} />} />
+        <Route path="/franchise" element={<Franchise content={NAVTITLE} />} />
+        <Route path="/notice" element={<Notice content={NAVTITLE} />} />
+        <Route path="/community" element={<Community content={NAVTITLE} />} />
+        <Route path="/mealncook" element={<Mealncook content={NAVTITLE} />} />
       </Routes>
     </Wrapper>
   );

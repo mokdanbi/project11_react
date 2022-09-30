@@ -2,12 +2,27 @@
     .itm {
         position: relative;
         height: 800px;
+
+        img {
+            display: none;
+        }
     }
 
     @for $i from 1 through 3 {
         .itm0#{$i} {
             background: url(../../public/images/main0#{$i}.jpg) no-repeat center center/cover;
             height: 800px;
+        }
+
+        .itm03 {
+
+            img {
+                display: block;
+                position: absolute;
+                top: -240px;
+                right: 0;
+                animation: rotate 30s linear infinite;transform-origin: 50% 50%;
+            }
         }
     }
 
@@ -30,5 +45,11 @@
             font-size: 18px;
             font-weight: 600;
         }
+    }
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
     }
 }

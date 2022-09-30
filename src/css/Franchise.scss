@@ -1,0 +1,52 @@
+@use 'App';
+
+.fran {
+    flex-direction: column;
+    margin: 80px 0 100px;
+
+    ul {
+        display: flex;
+        gap: 30px;
+        margin: 0 0 30px 0;
+
+        li {
+            position: relative;
+            flex: 1;
+            border: 1px solid #ddd;
+            padding: 30px;
+            text-align: center;
+
+            span {
+                position: absolute;
+                top: 25px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: #efe6de;
+                font-size: 70px;
+                font-weight: 800;
+                opacity: 0.8;
+                z-index: -1;
+            }
+
+            h3 {
+                font-size: 26px;
+                font-weight: 800;
+                margin: 30px 0 20px;
+            }
+
+            strong {
+                display: block;
+                font-size: 15px;
+                font-weight: 600;
+                margin: 0 0 10px 0;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 1.25;
+                text-align: center;
+                word-break: keep-all;
+            }
+        }
+    }
+}
