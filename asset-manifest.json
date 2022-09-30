@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project11_react/static/css/main.c427989f.css",
-    "main.js": "/project11_react/static/js/main.5e4676cc.js",
+    "main.css": "/project11_react/static/css/main.356d33ab.css",
+    "main.js": "/project11_react/static/js/main.db4a65c4.js",
     "static/media/main01.jpg": "/project11_react/static/media/main01.32b7d55de06596103232.jpg",
     "static/media/brand01.jpg": "/project11_react/static/media/brand01.edaa6a9f734e38046b7f.jpg",
     "static/media/main02.jpg": "/project11_react/static/media/main02.4827ea811394dd12e771.jpg",
@@ -18,11 +18,11 @@
     "static/media/store_k02.jpg": "/project11_react/static/media/store_k02.6ec7d6a0067edda45aa1.jpg",
     "static/media/store_k01.jpg": "/project11_react/static/media/store_k01.365d14aefce732ac3248.jpg",
     "index.html": "/project11_react/index.html",
-    "main.c427989f.css.map": "/project11_react/static/css/main.c427989f.css.map",
-    "main.5e4676cc.js.map": "/project11_react/static/js/main.5e4676cc.js.map"
+    "main.356d33ab.css.map": "/project11_react/static/css/main.356d33ab.css.map",
+    "main.db4a65c4.js.map": "/project11_react/static/js/main.db4a65c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c427989f.css",
-    "static/js/main.5e4676cc.js"
+    "static/css/main.356d33ab.css",
+    "static/js/main.db4a65c4.js"
   ]
 }
