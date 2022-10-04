@@ -11,6 +11,9 @@ import Community from './pages/Community';
 import Mealncook from './pages/Mealncook';
 import Footer from './component/Footer';
 import './css/App.scss'
+import Brand02 from './pages/Brand02';
+import Brand03 from './pages/Brand03';
+import Menu02 from './pages/Menu02';
 
 
 function App() {
@@ -30,7 +33,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/brand" element={<Brand content={NAVTITLE} />} />
+        <Route path="/brand/sub02" element={<Brand02 content={NAVTITLE} />} />
+        <Route path="/brand/sub03" element={<Brand03 content={NAVTITLE} />} />
         <Route path="/menu" element={<Menu content={NAVTITLE} />} />
+        <Route path="/menu/sub02" element={<Menu02 content={NAVTITLE} />} />
+        <Route path="/menu/sub03" element={<Menu content={NAVTITLE} />} />
         <Route path="/store" element={<Store content={NAVTITLE} />} />
         <Route path="/franchise" element={<Franchise content={NAVTITLE} />} />
         <Route path="/notice" element={<Notice content={NAVTITLE} />} />

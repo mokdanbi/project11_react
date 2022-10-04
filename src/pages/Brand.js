@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/Subpage.scss'
+import '../css/Subpage.scss';
 import { brand_sub } from '../component/NavData';
 import { Link } from 'react-router-dom';
 import Brand01 from './Brand01';
