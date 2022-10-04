@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/project11_react/static/css/main.356d33ab.css",
-    "main.js": "/project11_react/static/js/main.db4a65c4.js",
+    "main.css": "/project11_react/static/css/main.006a2767.css",
+    "main.js": "/project11_react/static/js/main.ce85abbc.js",
     "static/media/main01.jpg": "/project11_react/static/media/main01.32b7d55de06596103232.jpg",
     "static/media/brand01.jpg": "/project11_react/static/media/brand01.edaa6a9f734e38046b7f.jpg",
     "static/media/main02.jpg": "/project11_react/static/media/main02.4827ea811394dd12e771.jpg",
+    "static/media/brand03.jpg": "/project11_react/static/media/brand03.292643cbae277418b80b.jpg",
     "static/media/notice01.png": "/project11_react/static/media/notice01.2c9e32759f1dfa63b17a.png",
+    "static/media/menu03.png": "/project11_react/static/media/menu03.bbe4d4b306c6be0ead9c.png",
     "static/media/menu01.png": "/project11_react/static/media/menu01.d00fae07955dbf590c50.png",
     "static/media/main03.jpg": "/project11_react/static/media/main03.9c4bb5f8db941a98fe24.jpg",
+    "static/media/menu02.png": "/project11_react/static/media/menu02.da54690f0b6af0fd404a.png",
     "static/media/news01.png": "/project11_react/static/media/news01.20b3e589468be5326346.png",
     "static/media/fran01.png": "/project11_react/static/media/fran01.32e17a3157de8d942659.png",
     "static/media/mealandcook.png": "/project11_react/static/media/mealandcook.55f25e9bfcc47c6a2d3c.png",
@@ -17,12 +20,13 @@
     "static/media/store_g03.jpg": "/project11_react/static/media/store_g03.3c6540679079c619576a.jpg",
     "static/media/store_k02.jpg": "/project11_react/static/media/store_k02.6ec7d6a0067edda45aa1.jpg",
     "static/media/store_k01.jpg": "/project11_react/static/media/store_k01.365d14aefce732ac3248.jpg",
+    "static/media/brand02.jpg": "/project11_react/static/media/brand02.e2a82c48b45329d2d085.jpg",
     "index.html": "/project11_react/index.html",
-    "main.356d33ab.css.map": "/project11_react/static/css/main.356d33ab.css.map",
-    "main.db4a65c4.js.map": "/project11_react/static/js/main.db4a65c4.js.map"
+    "main.006a2767.css.map": "/project11_react/static/css/main.006a2767.css.map",
+    "main.ce85abbc.js.map": "/project11_react/static/js/main.ce85abbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.356d33ab.css",
-    "static/js/main.db4a65c4.js"
+    "static/css/main.006a2767.css",
+    "static/js/main.ce85abbc.js"
   ]
 }
