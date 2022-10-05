@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/Subpage.scss'
 import { notice_sub } from '../component/NavData';
 import { Link } from 'react-router-dom';
+import Notice01 from './Notice01';
 
 const Notice = ({ content }) => {
   const num = 4;
@@ -20,6 +21,7 @@ const Notice = ({ content }) => {
           </ul>
         </div>
       </div>
+      <Notice01 />
     </div>
   )
 }

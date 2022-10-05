@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/Subpage.scss'
 import { community_sub } from '../component/NavData';
 import { Link } from 'react-router-dom';
+import Community01 from './Community01';
 
 const Community = ({ content }) => {
   const num = 5;
@@ -21,6 +22,7 @@ const Community = ({ content }) => {
           </ul>
         </div>
       </div>
+      <Community01 />
     </div>
   )
 }
