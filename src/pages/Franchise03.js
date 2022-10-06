@@ -23,9 +23,33 @@ const Franchise03 = ({ content }) => {
             </div>
             <div className='container'>
                 <h2>사업설명회</h2>
-                <div className="fran">
-                    <div className='mail'>회원가입 없이 작성 가능하며, 24시간 이내로 본사영업팀이 연락 드리겠습니다.<br />
-                        전화로 문의 주시면 더 간편합니다! (문의 번호 1670-7719)</div>
+                <div className="form">
+                    <div className='ftit'>상담자 정보</div>
+                    <div><p>제목</p><input type="text" /></div>
+                    <div><p>이름</p><input type="text" /></div>
+                    <div><p>연락처</p><input type="text" /></div>
+                    <div><p>점포유무</p>
+                        <label for="yes">있음</label>
+                        <input id="yes" type="radio" value="있음" name="yn" />&nbsp;
+                        <label for="no">없음</label>
+                        <input id="no" type="radio" checked value="없음" name="yn" />
+                    </div>
+                    <div><p>두끼매장방문</p>
+                        <label for="yes">있음</label>
+                        <input id="yes" type="radio" value="있음" name="yn" />&nbsp;
+                        <label for="no">없음</label>
+                        <input id="no" type="radio" checked value="없음" name="yn" />
+                    </div>
+                    <div><p>외식업 경험</p>
+                        <label for="yes">있음</label>
+                        <input id="yes" type="radio" value="있음" name="yn" />&nbsp;
+                        <label for="no">없음</label>
+                        <input id="no" type="radio" checked value="없음" name="yn" />
+                    </div>
+                    <div><p>신청인원</p><input type="text" /></div>
+                    <div className='ftit'>창업 희망 정보</div>
+                    <div><p>희망지역</p><input type="text" /></div>
+                    <div><p>문의내용</p><textarea name="mb_msg" rows="5" cols="24"></textarea> </div>
                 </div>
             </div>
         </div>

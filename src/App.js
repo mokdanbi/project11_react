@@ -18,6 +18,9 @@ import Menu03 from './pages/Menu03';
 import Franchise02 from './pages/Franchise02';
 import Franchise03 from './pages/Franchise03';
 import Community02 from './pages/Community02';
+import Store02 from './pages/Store02';
+import Notice02 from './pages/Notice02';
+import Notice03 from './pages/Notice03';
 
 
 function App() {
@@ -46,12 +49,15 @@ function App() {
         <Route path="/menu/sub03" element={<Menu03 content={NAVTITLE} />} />
 
         <Route path="/store" element={<Store content={NAVTITLE} />} />
+        <Route path="/store/sub02" element={<Store02 content={NAVTITLE} />} />
 
         <Route path="/franchise" element={<Franchise content={NAVTITLE} />} />
         <Route path="/franchise/sub02" element={<Franchise02 content={NAVTITLE} />} />
         <Route path="/franchise/sub03" element={<Franchise03 content={NAVTITLE} />} />
 
         <Route path="/notice" element={<Notice content={NAVTITLE} />} />
+        <Route path="/notice/sub02" element={<Notice02 content={NAVTITLE} />} />
+        <Route path="/notice/sub03" element={<Notice03 content={NAVTITLE} />} />
 
         <Route path="/community" element={<Community content={NAVTITLE} />} />
         <Route path="/community/sub02" element={<Community02 content={NAVTITLE} />} />
