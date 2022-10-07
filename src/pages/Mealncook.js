@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/Subpage.scss'
 import { mealncook_sub } from '../component/NavData';
 import { Link } from 'react-router-dom';
+import Mealncook01 from './Mealncook01';
 
 const Mealncook = ({ content }) => {
   const num = 6;
@@ -21,6 +22,7 @@ const Mealncook = ({ content }) => {
           </ul>
         </div>
       </div>
+      <Mealncook01 />
     </div>
   )
 }

@@ -48,7 +48,7 @@ const MainStore = () => {
                                                     <GoDeviceMobile className='call' /> {kstore.tel}
                                                 </Link>
                                             </div>
-                                            <Link to="/" className='more'>MORE VIEW</Link>
+                                            <Link to="/store" className='more'>MORE VIEW</Link>
                                         </div>
                                     </figure>
                                 )
@@ -73,7 +73,7 @@ const MainStore = () => {
                                             <div className='open'><span>OPEN</span> {gstore.date}</div>
                                             <strong>{gstore.store}</strong>
                                             <div className='add'>{gstore.add}</div>
-                                            <Link to="/" className='more'>MORE VIEW</Link>
+                                            <Link to="/store" className='more'>MORE VIEW</Link>
                                         </div>
                                     </figure>
                                 )

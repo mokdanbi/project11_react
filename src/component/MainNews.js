@@ -32,7 +32,7 @@ const MainNews = () => {
                             NEWS.map(news => {
                                 return (
                                     <li key={news.id}>
-                                        <Link to="/">{news.title}</Link>
+                                        <Link to="/community">{news.title}</Link>
                                     </li>
                                 )
                             })
@@ -47,7 +47,7 @@ const MainNews = () => {
                             NOTICE.map(notice => {
                                 return (
                                     <li key={notice.id}>
-                                        <Link to="/">{notice.title}</Link>
+                                        <Link to="/notice">{notice.title}</Link>
                                     </li>
                                 )
                             })

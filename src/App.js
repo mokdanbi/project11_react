@@ -21,6 +21,12 @@ import Community02 from './pages/Community02';
 import Store02 from './pages/Store02';
 import Notice02 from './pages/Notice02';
 import Notice03 from './pages/Notice03';
+import Community03 from './pages/Community03';
+import Community04 from './pages/Community04';
+import Mealncook01 from './pages/Mealncook01';
+import Mealncook02 from './pages/Mealncook02';
+import Mealncook03 from './pages/Mealncook03';
+import Mealncook04 from './pages/Mealncook04';
 
 
 function App() {
@@ -61,9 +67,14 @@ function App() {
 
         <Route path="/community" element={<Community content={NAVTITLE} />} />
         <Route path="/community/sub02" element={<Community02 content={NAVTITLE} />} />
+        <Route path="/community/sub03" element={<Community03 content={NAVTITLE} />} />
+        <Route path="/community/sub04" element={<Community04 content={NAVTITLE} />} />
 
 
         <Route path="/mealncook" element={<Mealncook content={NAVTITLE} />} />
+        <Route path="/mealncook/sub02" element={<Mealncook02 content={NAVTITLE} />} />
+        <Route path="/mealncook/sub03" element={<Mealncook03 content={NAVTITLE} />} />
+        <Route path="/mealncook/sub04" element={<Mealncook04 content={NAVTITLE} />} />
       </Routes>
       <Footer />
     </Wrapper>
