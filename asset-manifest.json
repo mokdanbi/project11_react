@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project11_react/static/css/main.04d8a546.css",
-    "main.js": "/project11_react/static/js/main.7d855391.js",
+    "main.css": "/project11_react/static/css/main.4ad57c84.css",
+    "main.js": "/project11_react/static/js/main.3d6c0f09.js",
     "reactPlayerYouTube.js": "/project11_react/static/js/reactPlayerYouTube.f1fb6615.chunk.js",
     "reactPlayerSoundCloud.js": "/project11_react/static/js/reactPlayerSoundCloud.835d1bfd.chunk.js",
     "reactPlayerVimeo.js": "/project11_react/static/js/reactPlayerVimeo.285be111.chunk.js",
@@ -27,6 +27,7 @@
     "static/media/menu02.png": "/project11_react/static/media/menu02.da54690f0b6af0fd404a.png",
     "static/media/fran03.png": "/project11_react/static/media/fran03.e6dd5e7ab07116ec5529.png",
     "static/media/news01.png": "/project11_react/static/media/news01.20b3e589468be5326346.png",
+    "static/media/news04.png": "/project11_react/static/media/news04.a7ff9dc0013fba01a605.png",
     "static/media/fran02.png": "/project11_react/static/media/fran02.5a02de707cb0d9facb5d.png",
     "static/media/notice03.png": "/project11_react/static/media/notice03.9b19822dd3f9bf149a42.png",
     "static/media/news02.png": "/project11_react/static/media/news02.b61373864b14566aa4ce.png",
@@ -40,8 +41,8 @@
     "static/media/store_k01.jpg": "/project11_react/static/media/store_k01.365d14aefce732ac3248.jpg",
     "static/media/brand02.jpg": "/project11_react/static/media/brand02.e2a82c48b45329d2d085.jpg",
     "index.html": "/project11_react/index.html",
-    "main.04d8a546.css.map": "/project11_react/static/css/main.04d8a546.css.map",
-    "main.7d855391.js.map": "/project11_react/static/js/main.7d855391.js.map",
+    "main.4ad57c84.css.map": "/project11_react/static/css/main.4ad57c84.css.map",
+    "main.3d6c0f09.js.map": "/project11_react/static/js/main.3d6c0f09.js.map",
     "reactPlayerYouTube.f1fb6615.chunk.js.map": "/project11_react/static/js/reactPlayerYouTube.f1fb6615.chunk.js.map",
     "reactPlayerSoundCloud.835d1bfd.chunk.js.map": "/project11_react/static/js/reactPlayerSoundCloud.835d1bfd.chunk.js.map",
     "reactPlayerVimeo.285be111.chunk.js.map": "/project11_react/static/js/reactPlayerVimeo.285be111.chunk.js.map",
@@ -57,7 +58,7 @@
     "reactPlayerPreview.91620f47.chunk.js.map": "/project11_react/static/js/reactPlayerPreview.91620f47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04d8a546.css",
-    "static/js/main.7d855391.js"
+    "static/css/main.4ad57c84.css",
+    "static/js/main.3d6c0f09.js"
   ]
 }
