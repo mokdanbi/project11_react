@@ -7,6 +7,7 @@ const Store = ({ content }) => {
   const num = 2;
   return (
     <div className='Subpage'>
+      <div className="subImg subImg03"></div>
       <div className="navBar">
         <div className="inner">
           <div className="title">
